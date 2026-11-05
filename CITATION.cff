@@ -4,11 +4,25 @@ title: "quasar_lines"
 authors:
   - family-names: Chaves-Montero
     given-names: Jonás
+repository-code: "https://github.com/jchavesmontero/bh_masses"
+license: MIT
 preferred-citation:
   type: article
-  title: "Black hole virial masses from single-epoch photometry: the miniJPAS test case"
+  title: "Black hole virial masses from single-epoch photometry. The miniJPAS test case"
   authors:
     - family-names: Chaves-Montero
-      given-names: Jonás
+      given-names: J.
+    - family-names: Bonoli
+      given-names: S.
+    - family-names: Trakhtenbrot
+      given-names: B.
+    - name: "et al."
   journal: "Astronomy & Astrophysics"
+  volume: 660
+  start: A95
   year: 2022
+  month: 4
+  doi: "10.1051/0004-6361/202142567"
+  identifiers:
+    - type: other
+      value: "arXiv:2111.01180"

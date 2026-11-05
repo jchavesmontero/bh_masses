@@ -7,7 +7,7 @@ properties (Hβ, MgII, CIV) from multi-narrow-band photometry — such as the
 56-band J-PAS / miniJPAS surveys — and turns them into single-epoch virial
 masses of supermassive black holes (SMBHs). It implements the method of
 [Chaves-Montero et al. (2022)](#citation), *"Black hole virial masses from
-single-epoch photometry: the miniJPAS test case"*.
+single-epoch photometry. The miniJPAS test case"*.
 
 <p align="center"><img src="docs/example_fit.png" width="700"></p>
 
@@ -122,10 +122,27 @@ pytest
 
 ## Citation
 
-If you use this code, please cite:
+If you use this code, please cite
+[Chaves-Montero et al. 2022, A&A, 660, A95](https://doi.org/10.1051/0004-6361/202142567)
+([arXiv:2111.01180](https://arxiv.org/abs/2111.01180)):
 
-> Chaves-Montero, J., et al. 2022, *Black hole virial masses from single-epoch
-> photometry: the miniJPAS test case*, A&A.
+```bibtex
+@ARTICLE{2022A&A...660A..95C,
+       author = {{Chaves-Montero}, J. and {Bonoli}, S. and {Trakhtenbrot}, B. and {Fern{\'a}ndez-Centeno}, A. and {Queiroz}, C. and {D{\'\i}az-Garc{\'\i}a}, L.~A. and {Gonz{\'a}lez Delgado}, R.~M. and {Hern{\'a}n-Caballero}, A. and {Hern{\'a}ndez-Monteagudo}, C. and {L{\'o}pen-Sanjuan}, C. and {Overzier}, R. and {Sobral}, D. and {Abramo}, L.~R. and {Alcaniz}, J. and {Benitez}, N. and {Carneiro}, S. and {Cenarro}, A.~J. and {Crist{\'o}bal-Hornillos}, D. and {Dupke}, R.~A. and {Ederoclite}, A. and {Mar{\'\i}n-Franch}, A. and {Mendes de Oliveira}, C. and {Moles}, M. and {Sodr{\'e}}, L. and {Taylor}, K. and {Varela}, J. and {V{\'a}zquez Rami{\'o}}, H. and {Civera}, T.},
+        title = "{Black hole virial masses from single-epoch photometry. The miniJPAS test case}",
+      journal = {\aap},
+         year = 2022,
+        month = apr,
+       volume = {660},
+          eid = {A95},
+        pages = {A95},
+          doi = {10.1051/0004-6361/202142567},
+archivePrefix = {arXiv},
+       eprint = {2111.01180},
+ primaryClass = {astro-ph.GA},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2022A&A...660A..95C}
+}
+```
 
 ## License
 

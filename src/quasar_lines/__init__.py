@@ -2,7 +2,7 @@
 
 Measure continuum luminosities and broad emission-line properties (Hbeta,
 MgII, CIV) from narrow-band photometry such as J-PAS/miniJPAS, and turn them
-into single-epoch virial black hole masses (Chaves-Montero et al. 2022).
+into single-epoch virial black hole masses (Chaves-Montero et al. 2022, A&A, 660, A95).
 
 Quick start::
 
