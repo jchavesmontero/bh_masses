@@ -1,4 +1,4 @@
-# quasar_lines
+# Black hole masses
 
 **Black hole virial masses from quasar photospectra.**
 
