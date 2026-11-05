@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "quasar_lines"
+authors:
+  - family-names: Chaves-Montero
+    given-names: Jonás
+preferred-citation:
+  type: article
+  title: "Black hole virial masses from single-epoch photometry: the miniJPAS test case"
+  authors:
+    - family-names: Chaves-Montero
+      given-names: Jonás
+  journal: "Astronomy & Astrophysics"
+  year: 2022

@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quasar_lines"
+version = "1.0.0"
+description = "Black hole virial masses from quasar narrow-band photospectra (J-PAS/miniJPAS)"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Jonás Chaves-Montero", email = "jchaves@ifae.es" }]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.22",
+    "scipy>=1.8",
+    "astropy>=5.0",
+    "emcee>=3.0",
+    "matplotlib>=3.5",
+]
+keywords = ["astronomy", "quasars", "black holes", "J-PAS", "photometry"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Astronomy",
+]
+
+[project.optional-dependencies]
+notebooks = ["jupyter", "corner"]
+test = ["pytest"]
+mpi = ["mpi4py"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+quasar_lines = ["data/*.npz"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
